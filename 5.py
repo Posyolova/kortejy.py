@@ -1,4 +1,3 @@
-from collections import namedtuple
 Student = namedtuple('Student', 'name age grade city')
 students = (
    Student('Александра', '13', 4.3, 'Москва'),
